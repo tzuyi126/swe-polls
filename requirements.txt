@@ -1,4 +1,11 @@
 asgiref
+black
+click
+colorama
 Django
+mypy-extensions
+packaging
+pathspec
+platformdirs
 sqlparse
 tzdata
