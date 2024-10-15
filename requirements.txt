@@ -3,9 +3,13 @@ black
 click
 colorama
 Django
+flake8
+mccabe
 mypy-extensions
 packaging
 pathspec
 platformdirs
+pycodestyle
+pyflakes
 sqlparse
 tzdata
