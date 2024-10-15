@@ -7,7 +7,6 @@ colorama
 coverage
 coveralls
 Django
-docopt
 flake8
 idna
 mccabe
