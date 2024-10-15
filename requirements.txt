@@ -1,4 +1,16 @@
 asgiref
+black
+click
+colorama
+coverage
 Django
+flake8
+mccabe
+mypy-extensions
+packaging
+pathspec
+platformdirs
+pycodestyle
+pyflakes
 sqlparse
 tzdata
