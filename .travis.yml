@@ -8,7 +8,7 @@ before_script:
   - black --check .
   - flake8 .
 script: 
-  - coverage run manage.py test
+  - coverage run --source='.' manage.py test
 after_success:
   - coveralls
 env:
