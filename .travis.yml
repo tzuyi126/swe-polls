@@ -8,3 +8,13 @@ install:
   - pip install -q Django==$DJANGO_VERSION
   - pip install -r requirements.txt
 script: python manage.py test
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
+  region: "us-west-2"
+  app: "swe-polls"
+  env: "swe-polls-dev"
+  bucket_name: "elasticbeanstalk-us-west-2-908027391593"
+  on:
+    branch: master
