@@ -12,3 +12,4 @@ __pycache__/
 
 # Coverage.io
 .coverage
+.coveralls.yml
