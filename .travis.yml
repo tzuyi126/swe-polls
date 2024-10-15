@@ -10,7 +10,9 @@ before_script:
   - black --check .
   - flake8 .
 script: 
-  - python manage.py test
+  - coverage run manage.py test
+after_success:
+  - coveralls
 deploy:
   provider: elasticbeanstalk
   access_key_id: "$AWS_ACCESS_KEY"

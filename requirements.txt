@@ -1,9 +1,15 @@
 asgiref
 black
+certifi
+charset-normalizer
 click
 colorama
+coverage
+coveralls
 Django
+docopt
 flake8
+idna
 mccabe
 mypy-extensions
 packaging
@@ -11,5 +17,7 @@ pathspec
 platformdirs
 pycodestyle
 pyflakes
+requests
 sqlparse
 tzdata
+urllib3
