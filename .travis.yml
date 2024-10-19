@@ -1,14 +1,14 @@
-dist: focal
 language: python
+dist: bionic
+os: linux
 python:
-  - "3.12"
+  - "3.11"
 install:
   - pip install -r requirements.txt
   - pip install coveralls
-before_script:
+script:
   - black --check .
   - flake8 .
-script: 
   - coverage run --source='.' manage.py test
   - coverage report -m
   - coveralls
